@@ -1,0 +1,246 @@
+2013-10-06 22:51:10 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /post
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-06 22:51:19 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /posts
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-06 23:57:15 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /post
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-07 00:22:17 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /users/index
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-07 00:23:23 Error: Fatal Error (1): Class 'User' not found in [/home/r4ncor/Desktop/ejercicio/app/Model/User.php, line 34]
+2013-10-07 00:23:23 Error: [FatalErrorException] Class 'User' not found
+Request URL: /users/index
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/home/r4ncor/De...', 34)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/home/r4ncor/De...', 34, Array)
+#2 /home/r4ncor/Desktop/ejercicio/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/home/r4ncor/De...', 34, Array)
+#3 /home/r4ncor/Desktop/ejercicio/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-07 01:00:41 Error: [MissingActionException] Action UsersController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'view',
+)
+Request URL: /users/view/123
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-10-07 01:01:26 Error: [MissingViewException] View file "/home/r4ncor/Desktop/ejercicio/app/View/Users/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/r4ncor/Desktop/ejercicio/app/View/Users/view.ctp',
+)
+Request URL: /users/view/123
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/lib/Cake/View/View.php(459): View->_getViewFileName(NULL)
+#1 /home/r4ncor/Desktop/ejercicio/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-07 01:21:37 Error: Fatal Error (4): syntax error, unexpected 'funtion' (T_STRING), expecting variable (T_VARIABLE) in [/home/r4ncor/Desktop/ejercicio/app/Controller/UsersController.php, line 46]
+2013-10-07 01:21:37 Error: [FatalErrorException] syntax error, unexpected 'funtion' (T_STRING), expecting variable (T_VARIABLE)
+Request URL: /users/index
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/r4ncor/De...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/r4ncor/De...', 46, Array)
+#2 /home/r4ncor/Desktop/ejercicio/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/r4ncor/De...', 46, Array)
+#3 /home/r4ncor/Desktop/ejercicio/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-07 01:24:52 Error: Fatal Error (4): syntax error, unexpected 'funtion' (T_STRING), expecting variable (T_VARIABLE) in [/home/r4ncor/Desktop/ejercicio/app/Controller/UsersController.php, line 46]
+2013-10-07 01:24:52 Error: [FatalErrorException] syntax error, unexpected 'funtion' (T_STRING), expecting variable (T_VARIABLE)
+Request URL: /users/index
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/r4ncor/De...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/r4ncor/De...', 46, Array)
+#2 /home/r4ncor/Desktop/ejercicio/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/r4ncor/De...', 46, Array)
+#3 /home/r4ncor/Desktop/ejercicio/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-07 01:26:33 Error: Fatal Error (4): syntax error, unexpected 'funtion' (T_STRING), expecting variable (T_VARIABLE) in [/home/r4ncor/Desktop/ejercicio/app/Controller/UsersController.php, line 46]
+2013-10-07 01:26:33 Error: [FatalErrorException] syntax error, unexpected 'funtion' (T_STRING), expecting variable (T_VARIABLE)
+Request URL: /users/view/123
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/r4ncor/De...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/r4ncor/De...', 46, Array)
+#2 /home/r4ncor/Desktop/ejercicio/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/r4ncor/De...', 46, Array)
+#3 /home/r4ncor/Desktop/ejercicio/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-07 01:59:33 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user/add
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-07 02:00:35 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user/add
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-07 02:00:40 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user/add
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-07 02:01:08 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user/add
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-07 02:01:10 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user/add
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-07 02:01:15 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user/add
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-07 02:01:32 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user/add
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-07 02:02:15 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user/add
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-07 03:57:54 Error: [MissingActionException] Action UsersController::edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'edit',
+)
+Request URL: /users/edit/123
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-10-07 03:58:30 Error: [MissingActionException] Action UsersController::edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'edit',
+)
+Request URL: /users/edit/123
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-10-07 03:58:35 Error: [MissingActionException] Action UsersController::edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'edit',
+)
+Request URL: /users/edit/124
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-10-07 04:00:07 Error: [MissingActionException] Action UsersController::edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'edit',
+)
+Request URL: /users/edit/124
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-10-07 04:00:08 Error: [MissingActionException] Action UsersController::edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'edit',
+)
+Request URL: /users/edit/124
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-10-07 04:07:34 Error: [MissingActionException] Action UsersController::delete() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'delete',
+)
+Request URL: /users/delete/126
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-10-07 04:08:51 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /users/delete/126
+Stack Trace:
+#0 [internal function]: UsersController->delete('126')
+#1 /home/r4ncor/Desktop/ejercicio/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
