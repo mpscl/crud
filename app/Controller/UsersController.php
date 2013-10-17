@@ -18,14 +18,10 @@ class UsersController extends AppController {
     public function add(){
     	if ($this->request->is('post')){
     		if($this->User->save($this->request->data)){
-    			$this->Session->setFlash('Tus datos fueron guardados. ');
+    			$this->Session->setFlash('Tu Cuenta fue creada.');
     			$this->redirect(array('action' => 'index'));
     		}
-    	}else{
-            //if save failed
-            $this->Session->setFlash('No fue posible guardar los datos.');
-            
-        }
+    	}
     }
 
     public function edit($id = null) {
@@ -34,7 +30,7 @@ class UsersController extends AppController {
         $this->request->data = $this->User->read();
     } else {
         if ($this->User->save($this->request->data)) {
-            $this->Session->setFlash('Your post has been updated.');
+            $this->Session->setFlash('Tu cuenta ha sido actualizada.');
             $this->redirect(array('action' => 'index'));
         	}
     	}
@@ -45,7 +41,7 @@ class UsersController extends AppController {
         throw new MethodNotAllowedException();
     }
     if ($this->User->delete($id)) {
-        $this->Session->setFlash('The post with id: ' . $id . ' has been deleted.');
+        $this->Session->setFlash('La cuenta con id: ' . $id . ' fue borrada.');
         $this->redirect(array('action' => 'index'));
     	}
 	}    

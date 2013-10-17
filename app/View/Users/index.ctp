@@ -1,5 +1,5 @@
 <h1>Registro de usuarios</h1>
-<?php echo $this->Html->link('Add Post', array('controller' => 'users', 'action' => 'add')); ?>
+<?php echo $this->Html->link('Nueva Cuenta', array('controller' => 'users', 'action' => 'add')); ?>
 <table>
     <tr>
         <th>Id</th>
