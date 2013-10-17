@@ -244,3 +244,118 @@ Stack Trace:
 #3 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
 #4 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2013-10-17 01:30:13 Error: [MissingActionException] Action DashboardController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'DashboardController',
+  'action' => 'index',
+)
+Request URL: /dashboard
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-10-17 01:32:15 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/r4ncor/Desktop/ejercicio/app/Controller/DashboardController.php, line 38]
+2013-10-17 01:32:15 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /dashboard
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/r4ncor/De...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/r4ncor/De...', 38, Array)
+#2 /home/r4ncor/Desktop/ejercicio/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/r4ncor/De...', 38, Array)
+#3 /home/r4ncor/Desktop/ejercicio/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-17 01:35:29 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/r4ncor/Desktop/ejercicio/app/Controller/DashboardController.php, line 40]
+2013-10-17 01:35:29 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /dashboard
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/r4ncor/De...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/r4ncor/De...', 40, Array)
+#2 /home/r4ncor/Desktop/ejercicio/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/r4ncor/De...', 40, Array)
+#3 /home/r4ncor/Desktop/ejercicio/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-17 01:35:59 Error: [MissingViewException] View file "/home/r4ncor/Desktop/ejercicio/app/View/Dashboard/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/r4ncor/Desktop/ejercicio/app/View/Dashboard/index.ctp',
+)
+Request URL: /dashboard
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/lib/Cake/View/View.php(459): View->_getViewFileName(NULL)
+#1 /home/r4ncor/Desktop/ejercicio/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-17 01:57:27 Error: [MissingActionException] Action DashboardController::edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'DashboardController',
+  'action' => 'edit',
+)
+Request URL: /dashboard/edit/123
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-10-17 01:59:35 Error: [MissingActionException] Action DashboardController::edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'DashboardController',
+  'action' => 'edit',
+)
+Request URL: /dashboard/edit/123
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-10-17 01:59:44 Error: [MissingActionException] Action DashboardController::delete() could not be found.
+Exception Attributes: array (
+  'controller' => 'DashboardController',
+  'action' => 'delete',
+)
+Request URL: /dashboard/delete/129
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-10-17 03:07:14 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/r4ncor/Desktop/ejercicio/app/Controller/DashboardController.php, line 39]
+2013-10-17 03:07:14 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /dashboard
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/r4ncor/De...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/r4ncor/De...', 39, Array)
+#2 /home/r4ncor/Desktop/ejercicio/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/r4ncor/De...', 39, Array)
+#3 /home/r4ncor/Desktop/ejercicio/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-17 03:17:28 Error: [MissingControllerException] Controller class DashboardControllerController could not be found.
+Exception Attributes: array (
+  'class' => 'DashboardControllerController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-17 03:33:49 Error: [MissingControllerException] Controller class DashboardControllerController could not be found.
+Exception Attributes: array (
+  'class' => 'DashboardControllerController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-17 03:34:08 Error: [MissingActionException] Action DashboardController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'DashboardController',
+  'action' => 'display',
+)
+Request URL: /
+Stack Trace:
+#0 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/r4ncor/Desktop/ejercicio/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/r4ncor/Desktop/ejercicio/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
